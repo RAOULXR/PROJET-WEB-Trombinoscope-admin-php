@@ -1,0 +1,80 @@
+/* MAIN */
+body{
+    background-color: rgb(255, 255, 255);
+}
+h5{
+    display: inline-block;
+    padding: 10px;
+    background: #727272;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+h6{
+  display: inline-block;
+  padding: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  color: black;
+  text-align: center;
+}
+.p{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+/* PRESENTATION CSS */
+#pres{
+  text-align: center;
+}
+
+/* TROMBI CSS */
+#tromb{
+    text-align: center;
+}
+
+/* CAROUSEL CSS */
+.d-block#carousel_header{
+  /* border-radius: 10% / 50%; */
+}
+.d-block#carousel_footer{
+}
+
+/* CARD CSS */
+.card img{
+  border-radius: 50% / 50%;
+}
+
+/* MENU CSS*/
+.menu{
+    border: 0px solid;
+    height: 100%;
+    text-align: center;
+    width: 6em;
+    padding-top: 9px;
+    background-color: #d8d8d8;
+    font-size: 1.8em;
+    transition: 0.3s;
+    z-index: 1;
+    display: inline-block;
+}
+.menu:hover{
+    background-color: #5194cc;
+    color: #b2b3b4;
+}
+/* BUTTON CSS */
+.btn-link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 1s;
+}
+.btn-link:hover {
+  color: #252527;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
